@@ -1,0 +1,112 @@
+* {
+    font-family: 'Arial';
+    box-sizing: border-box
+}
+
+body {
+    padding: 0;
+    margin: 0
+}
+
+.group-menus .container-fluid {
+    width: 98%;
+    margin: auto
+}
+
+.group-menus h1 {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 60px 0
+}
+
+.group-menus .col-md-4 {
+    float: left
+}
+
+.group-menus .recipe {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #fafafa
+}
+
+.group-menus .recipe h4 {
+    height: 35px;
+    width: 100px;
+    float: right;
+    margin: 0 0 20px 0;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.chicken {
+    background-color: #a5635d
+}
+.beef {
+    background-color: #781110
+}
+.sushi {
+    background-color: #d2dffc
+}
+
+.group-menus .recipe p {
+    clear: both;
+    padding-left: 20px
+}
+
+
+
+
+
+@media(max-width: 767px) {
+    .col-xs-4 {
+        width: 33.33%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .col-xs-6 {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .col-xs-12 {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .col-sm-4 {
+        width: 33.33%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .col-sm-6 {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .col-sm-12 {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media(min-width: 992px) {
+    .col-md-4 {
+        width: 33.33%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .col-md-6 {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .col-md-12 {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
